@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.header {
+  background-color: #ffdb15;
+  height: 14vh;
+}
+.searchSection {
+  height: 7vh;
+  text-align: center;
+}
+#searchBar {
+  height: 2.5vh;
+  margin-top: 2vh;
+}
+.navBar {
+  height: 7vh;
+  border-style: solid;
+  line-height: 6vh;
+  text-align: center;
+}
+.navOptions {
+  vertical-align: middle;
+  margin-left: 2vw;
+}
+.content {
+  background-color: #ebebeb;
+  height: 86vh;
+  text-align: center;
+}
+.benefits {
+  height: 15vh;
+  width: 80vw;
+  margin-top: 5vh;
+  background-color: white;
+  display: inline-block;
+  border-radius: 1vw;
+}
+.offer,
+.firstOffer {
+  height: 15vh;
+  width: 20vw;
+  float: left;
+  text-align: left;
+}
+.firstOffer {
+  border-right: solid rgb(146, 144, 144) 2px;
+}
+.offerTitle {
+  margin-top: 3.5vh;
+}
+.subTitle,
+.offerTitle {
+  margin-left: 1vw;
+}
